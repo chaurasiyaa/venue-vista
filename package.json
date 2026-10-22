@@ -1,0 +1,13 @@
+{
+  "name": "venue-vista",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack venue discovery MVP with accounts, saved venues, and booking requests.",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "dev": "node --env-file-if-exists=.env --watch server.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
